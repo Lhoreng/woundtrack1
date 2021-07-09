@@ -15,7 +15,8 @@ def pin(woundtime):
     time.sleep(5)
     
     #Adding of time
-    woundtime = function_login.driver.find_element_by_xpath('//*[@id="ti"]').send_keys(woundtime)   
+    woundtime = function_login.driver.find_element_by_xpath('//*[@id="ti"]').send_keys(woundtime)
+    time.sleep(3)   
     
     #Plotting of wound pin    
     pyautogui.doubleClick(493, 626)

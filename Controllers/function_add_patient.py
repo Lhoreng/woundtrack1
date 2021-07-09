@@ -7,10 +7,10 @@ import time
 
 
 def add_patient(
-        mrn,
-        lname,
-        fname,
-        no_wounds):
+    mrn,
+    ln,
+    fn,
+    no_wounds):
     
     newbtn = function_login.driver.find_element_by_xpath('//*[@id="content"]/data/div/div[1]/div/div[1]/div/div/button').click()
     time.sleep(5)
