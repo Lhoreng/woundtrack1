@@ -10,7 +10,7 @@ userpass = "Woundtrack2020@"
 function_login.login(usern, userpass)
 
 mrn ="002"
-lname = "Aguilar2"
+lname = "Aguilar2 hhh"
 fname = "Bimbim2"
 no_wounds = 15
 
