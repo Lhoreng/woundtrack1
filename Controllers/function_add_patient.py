@@ -16,8 +16,8 @@ def add_patient(
     time.sleep(5)
     
     mrn = function_login.driver.find_element_by_xpath('/html/body/div[5]/div/div/form/div/div[2]/table/tbody/tr[1]/td[2]/div/div/input').send_keys(mrn)
-    lname = function_login.driver.find_element_by_xpath('/html/body/div[5]/div/div/form/div/div[2]/table/tbody/tr[2]/td[2]/div/div/input').send_keys(lname)
-    fname = function_login.driver.find_element_by_xpath('/html/body/div[5]/div/div/form/div/div[2]/table/tbody/tr[3]/td[2]/div/div/input').send_keys(fname)
+    ln = function_login.driver.find_element_by_xpath('/html/body/div[5]/div/div/form/div/div[2]/table/tbody/tr[2]/td[2]/div/div/input').send_keys(ln)
+    fn = function_login.driver.find_element_by_xpath('/html/body/div[5]/div/div/form/div/div[2]/table/tbody/tr[3]/td[2]/div/div/input').send_keys(fn)
     no_wounds = function_login.driver.find_element_by_xpath('/html/body/div[5]/div/div/form/div/div[2]/table/tbody/tr[4]/td[2]/div/div/input').send_keys(no_wounds)
     time.sleep(5)
     
